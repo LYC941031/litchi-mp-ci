@@ -1,0 +1,38 @@
+{
+  "name": "litchi-mp-ci",
+  "version": "1.0.1",
+  "description": "提供自动化打码小程序脚手架服务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "litchi-mp-ci": "bin/index.js"
+  },
+  "keywords": [
+    "gulp",
+    "miniapp",
+    "ci"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "cunzhang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^8.3.0",
+    "deepmerge": "^4.2.2",
+    "dotenv": "^10.0.0",
+    "dotenv-expand": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.6",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "gulp": "^4.0.2",
+    "inquirer": "^8.2.0",
+    "miniprogram-ci": "^1.6.10",
+    "ora": "^6.0.1",
+    "string.prototype.padstart": "^3.1.3"
+  }
+}
